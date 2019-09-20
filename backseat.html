@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>360&deg; driving seat</title>
+    <title>360&deg; back seat</title>
     <meta name="description" content="360&deg; Image Gallery - A-Frame">
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@5/dist/aframe-event-set-component.min.js"></script>
@@ -13,7 +13,7 @@
   <body>
     <a-scene inspector="url: https://aframe.io/releases/0.3.0/aframe-inspector.min.js">
       <a-assets>
-        <img id="city" crossorigin="anonymous" src="img/PIC_0497.JPG">
+        <img id="city" crossorigin="anonymous" src="img/PIC_0505.JPG">
         <img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg">
         <img id="cubes-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg">
         <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg">
@@ -36,7 +36,7 @@
 
       <!-- 360-degree image. -->
       <a-sky id="image-360" radius="10" src="#city" animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade" animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade" material="color: #FFF; side: back; shader: flat; npot: true; src: #city" geometry="primitive: sphere; radius: 10; segmentsWidth: 64; segmentsHeight: 32" scale="-1 1 1" position="1.01 2.5 1.24"
-       rotation="0 78 0"></a-sky>
+       rotation="0 80 0"></a-sky>
 
 
 
